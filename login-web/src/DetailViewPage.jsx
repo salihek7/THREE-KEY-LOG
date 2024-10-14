@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import './DetailViewPage.css';
 
 const DetailViewPage = () => {
     const { id } = useParams();
     const [post, setPost] = useState(null);
     const [loading, setLoading] = useState(true);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const fetchPost = async () => {
@@ -28,6 +29,7 @@ const DetailViewPage = () => {
         <div className="detail-container">
             <h1>{post.title}</h1>
             <p>{post.body}</p>
+            <button onClick={() => navigate('/list')}>Back to List</button>
         </div>
     );
 };

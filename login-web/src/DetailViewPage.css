@@ -13,3 +13,16 @@ h1 {
     color: darkslategray; /* Light blue for title */
     background-color: darkseagreen;
 }
+button {
+    padding: 10px 15px;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

@@ -25,7 +25,7 @@ const ListViewPage = () => {
 
     return (
         <div className="list-container">
-            <h1>Posts</h1>
+            <h1>Post Lists</h1>
             <div className="posts-grid">
                 {posts.map(post => (
                     <div key={post.id} className="post-card">

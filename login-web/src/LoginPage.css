@@ -8,6 +8,11 @@
     color: white; /* White text */
 }
 
+.login-container h1{
+    color: black;
+    background-color: #4a90e2;
+}
+
 .login-form {
     display: flex;
     flex-direction: column;
