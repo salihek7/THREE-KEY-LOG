@@ -5,5 +5,4 @@
 ![Screenshot 2024-10-14 160952](https://github.com/user-attachments/assets/36974131-d851-4570-a45a-25239392806b)
 
 
-
-In this project, we built a visually appealing React application with a Login Page, List View, and Detail View. The app integrates an external API for fetching posts, features a "Show Password" option, and employs engaging styling for a better user experience. It's a solid foundation for further enhancements.
+In this project, we built a visually appealing React application with a Login Page, List View, and Detail View. The app integrates an external API for fetching posts, features a "Show Password" option, and employs engaging styling for a better user experience. We also added a "Back to List" button in the Detail View, allowing users to easily navigate back to the List View. This creates a smoother and more intuitive user experience, making it a solid foundation for further enhancements.
